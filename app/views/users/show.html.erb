@@ -1,0 +1,6 @@
+User
+<h2><%= @user.name %></h2>
+created with the following email:
+<%= @user.email %>
+<%= link_to "Log out", logout_path, method: :delete  %>
+<%= link_to "Secret", secret_path %>
